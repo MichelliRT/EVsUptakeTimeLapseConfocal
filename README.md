@@ -2,7 +2,7 @@
 Developed by: Michelli Ramires Teixeira
  *  ORCID:0000-0001-6694-9348		  email: michelli.rt@gmail.com
  *  Sao Paulo - Brazil
-This code was developed to quantify extracellular vesicles dyed with VibrantDiO and analyzed by time-lapse confocal microscopy. The analysis is performed using only the fluorescence channel, split in the LAS X software (Leica Microsystems). Ensure the images are saved in ".tiff" format and in high quality to ease the quantification process.
+This code was developed to quantify extracellular vesicles (EVs) labeled with VibrantDiO and analyzed using time-lapse confocal microscopy. The ImageJ/FIJI analysis was performed using only the fluorescence channel (not tested on bright field images), which was split in the LAS X software (Leica Microsystems). Ensure the images are saved in high-quality ".tiff" format to facilitate the quantification process. Although it was developed specifically for fluorescent dye-labeled EVs, it will probably work for other types of labeling in experiments requiring sequential analysis of multiple images, possibly needing just a few adaptations.
 
 The macro first asks if the user wants to calibrate the scale. If yes, ensure that you apply global calibration to all the images in the directory.
 Set the threshold you want the macro to apply to the rest of the images in the directory (DO NOT PRESS "APPLY").
