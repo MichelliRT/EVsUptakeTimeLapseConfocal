@@ -1,5 +1,5 @@
 # EVsUptakeTimeLapseConfocal
-/* Developed by: Michelli Ramires Teixeira
+Developed by: Michelli Ramires Teixeira
  *  ORCID:0000-0001-6694-9348		  email: michelli.rt@gmail.com
  *  Sao Paulo - Brazil
 This code was developed to quantify extracellular vesicles dyed with VibrantDiO and analyzed by time-lapse confocal microscopy. The analysis is performed using only the fluorescence channel, split in the LAS X software (Leica Microsystems). Ensure the images are saved in ".tiff" format and in high quality to ease the quantification process.
@@ -12,4 +12,3 @@ The results will be saved inside the directory of the images in a .csv file.
 
 Feel free to adapt the code for your use.
 
-*/
